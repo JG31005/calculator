@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE2D4;
+}
+.calculator-container{
+    display: flex;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: darkslategray;
+    background-color: #808080;
+    width: 600px;
+    height: 800px;
+}
