@@ -1,3 +1,7 @@
+@font-face{
+    font-family: digital;
+    src: url(Digital7-rg1mL.ttf);
+}
 body{
     display: flex;
     justify-content: center;
@@ -18,15 +22,25 @@ body{
     padding: 20px;
 }
 .display{
+    font-family: digital;
+    display: flex;
+    font-size: 70px;
+    font-weight: bolder;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
     background-color: lightgray;
     width: 550px;
     height: 100px;
     border-radius: 5px;
+    
 }
 .action-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
+    box-sizing: border-box;
+    padding: 20px;
     margin: 20px;
     border: 5px;
     border: solid;
