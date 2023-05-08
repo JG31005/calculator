@@ -42,7 +42,7 @@ body{
 }
 
 .btn{
-    font-size: larger;
+    font-size: 30px;
     font-weight: bolder;
     display: flex;
     flex-grow: 1;
